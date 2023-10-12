@@ -162,3 +162,16 @@ ul{
   color: royalblue;
   margin-bottom: 5em;
 }
+.contactMe {
+  display: flex;
+  /* width: 100vw */
+  justify-content: center;
+  align-items: center;
+  /* align-content: stretch; */
+  flex-wrap: wrap;
+  height: 10rem;
+  background-color: darkcyan;
+  border-radius: 30%;
+  padding: 5rem;
+  margin: 5%;
+}
