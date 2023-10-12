@@ -179,8 +179,8 @@ ul{
 }
 .contactMe > div {
   font-size: large;
-  flex-direction: column;
+  /* flex-direction: column; */
   /* height: 50px;
   width: 100px; */
-  color: papayawhip;
+  color: goldenrod;
 }
