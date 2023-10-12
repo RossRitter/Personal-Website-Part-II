@@ -62,6 +62,7 @@ main {
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 100%;
   /* center the picutre within main section */
 }
 h2 {
@@ -84,6 +85,7 @@ p {
   color: bisque;
   margin: 10px;
   border: solid;
+  border-radius: 5%;
   padding: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -167,11 +169,18 @@ ul{
   /* width: 100vw */
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   /* align-content: stretch; */
-  flex-wrap: wrap;
   height: 10rem;
   background-color: darkcyan;
-  border-radius: 30%;
+  border-radius: 100%;
   padding: 5rem;
   margin: 5%;
+}
+.contactMe > div {
+  font-size: large;
+  flex-direction: column;
+  /* height: 50px;
+  width: 100px; */
+  color: papayawhip;
 }
