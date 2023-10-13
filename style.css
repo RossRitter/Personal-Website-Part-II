@@ -184,3 +184,11 @@ ul{
   width: 100px; */
   color: goldenrod;
 }
+#congratulationsSubmit {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  padding: 25%;
+  margin: 5rem;
+}
