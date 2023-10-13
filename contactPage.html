@@ -22,16 +22,22 @@
     </div>
   </nav>
   <!-- <div class="contactMe"> -->
-    <form><div class="contactMe">
+    <form>
+    <div class="contactMe">
       <div>
         <label for=UserName>Name:</label>
-        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Name" required>
         </div>
          <!-- <br> -->
-      <div>
-        <label for="Email">Email:</label>
-        <input type="email" placeholder="@gmail.com">
-      </div>
+         <div>
+           <label for="Email">Email:</label>
+           <input type="email" placeholder="@gmail.com" required>
+          </div>
+          <!-- <br> -->
+          <div>
+             <label for="phoneNumber">Phone Number:</label>
+             <input type="number" placeholder="123 345 6789" required>
+          </div>
       <!-- <br> -->
       <div>
         <label for="calandar">Date:</label>
@@ -39,8 +45,11 @@
       </div>
          <br>
       <div>
-        <label for="Submit">Submit:</label>
-        <input type="button">
+        <!-- <label for="Submit">Submit:</label>
+        <input type="button"> -->
+        <input type="submit" value="Submit">
+        <!-- mdm helped - took out button before input becasuse submit was being removed from the submit box -->
+
       </div> 
     </form>
   </div>
