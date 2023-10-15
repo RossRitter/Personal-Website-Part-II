@@ -1,43 +1,63 @@
 #name > a {
+  /* display: flex; */
+  /* justify-content: flex-start; */
   text-decoration: none;
-  /* margin-top: 5em; */
+  margin-left: 2em;
   /* text-align: left; */
   color: bisque
-  
 }
 #name {
-  padding-top: 1em;
-  font-family:Georgia, 'Times New Roman', Times, serif
+  display: flex;
+  /* padding-top: 1em; */
+  /* margi: 1rem; */
+  justify-content: flex-start;
+  /* align-items: center */
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 nav {
+  /* display: flex; */
   background-color: darkgreen;
+  /* text-align: center; */
+  /* justify-content: flex-end; */
   /* text-align: right;
   text-decoration: none; */
-  position: relative;
+  /* position: relative; */
   width: 100%;
   /* margin: 20px; */
+  /* justify-content: center;
+  align-items: center; */
 }
 #links {
-  text-align: right;
+  display: flex;
+  /* justify-content: flex-end; */
+  /* text-align: right; */
   /* text-decoration: none; */
   font-size: 25px;
-  position: relative;
+  /* position: relative; */
   /* height: 50px;
   padding: 20px; */
+  justify-content: center;
+  /* align-items: center; */
 }
 #links > a {
+  /* display: flex; */
+  justify-content: flex-end;
+  /* align-items: center; */
   color: bisque;
   text-decoration: none;
   padding: 10px;
+  /* align-items: center; */
 }
 #quote {
   text-align: center;
   /* color: darkolivegreen; */
 }
 footer {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: darkgreen;
-
 }
 .media {
   padding: 10px;
@@ -62,6 +82,7 @@ main {
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 100%;
   /* center the picutre within main section */
 }
 h2 {
@@ -84,6 +105,7 @@ p {
   color: bisque;
   margin: 10px;
   border: solid;
+  border-radius: 5%;
   padding: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -161,4 +183,43 @@ ul{
   border: solid;
   color: royalblue;
   margin-bottom: 5em;
+}
+.contactMe {
+  display: flex;
+  /* width: 100vw */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* align-content: stretch; */
+  /* height: 10rem; */
+  background-color: darkcyan;
+  border-radius: 100%;
+  padding: 5rem;
+  margin: 5%;
+}
+.contactMe > div {
+  font-size: large;
+  /* flex-direction: column; */
+  /* height: 50px;
+  width: 100px; */
+  color: goldenrod;
+}
+#congratulationsSubmit {
+  display: flex;
+  /* height: 100vh; */
+  text-align: center;
+  justify-content: center;
+  padding: 25%;
+  margin: 5rem;
+  background-image: url(https://lh3.googleusercontent.com/pw/ADCreHekQNq0MKijfMspzVVQpCaXGziponhLKZCEnCKioOPRWJHMCOcH9sfwJw0BEG5aDp0hkhmUPKr7o0zci60ewtpFoV7TYbeHuLjLNQ0I4Fc-eSryzao_26hBgO-nLVc-URLBB9N9WwHHBHqMMK66Y7a79AHmnVWFJhdjD4Qp41HtN3nofOApF24y0VvGar8atNAUW_Ae3rurn4fPQ7eme2GyRx1MDQ-H8prdTGoQd1pP9blVYLTsLDOvPk-DhmRJwczQe3Mr76a_9ggeqtVkSU6HUVuNamjXKWedD1l5hX0P3Wk5etXBZGuf5q3VPEeeEXx6DI-oFJ_wXjhwhY8kShOgAUGTYTyg7B1wTyQJuWeA1ynYX7oeRmo-NBkLJRNY72ozdJtIiy9iVqqISJbDvuRSlX0aSjwuM8n5Bxx-HZSmZVFb6nkhkY7FHgXe71okUFTth9GH27C5y7PeEtYB0ZGGCVEJgljeELCQvTnLnJKE17mG47poQPIEz4lUTPZZjH_PYaHXTsPgvok6WDJcpVnJ8WXkAGhWe0hHeGeMNDomLfVtdAIc6YqYy9CVvVEMw7MeD5RYb5JpBYM2-u2Zkx6thwWHR8waWpgiEqUvtGdoUhzWZUQbfxSVER1O1AQD-ivYTBwWM_AQL9F8z641qkvrY89nuPnzYsbajsizKaIiAbcCb26G0kTD9KLzKtbzLlC0qJwL7DZPEuwl3ZvGFo3wHMKIrJey5QM_NKy6Q2rgfQmtzZHATmKXnzhliRODt6TvcxltlLqgF2aSxfKbN5lfesMnUAwklKIERiDWApNAaxzxnXTinUcZ9pez2xZXqplj01esorkiseKqaw9sthOIPD0epG1eirDYQGp1GbdbJlx41xgP1B6883XXhbNnXgC6s_eU_x5P1JjqSMPaOJO3EyDaq0Avrxf5VeMTgDUO-4eOWjPPstsDOoI=w1946-h1460-s-no?authuser=0);
+  background-size: cover;
+  /* added a background to the submit page */
+}
+#congratulationsSubmit > p {
+  color: whitesmoke;
+}
+@media (max-width: 400px) {
+  nav {
+    background:blueviolet;
+  }
 }
