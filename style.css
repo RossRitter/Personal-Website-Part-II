@@ -5,9 +5,6 @@
   margin-left: 2em;
   /* text-align: left; */
   color: bisque
-
-  
-  
 }
 #name {
   display: flex;
@@ -29,7 +26,6 @@ nav {
   /* margin: 20px; */
   /* justify-content: center;
   align-items: center; */
-  
 }
 #links {
   display: flex;
@@ -62,7 +58,6 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: darkgreen;
-
 }
 .media {
   padding: 10px;
@@ -222,4 +217,9 @@ ul{
 }
 #congratulationsSubmit > p {
   color: whitesmoke;
+}
+@media (max-width: 400px) {
+  nav {
+    background:blueviolet;
+  }
 }
