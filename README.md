@@ -1,1 +1,1 @@
-Personal Website part II 
+Personal Website part II. Used flexbox for the Nav, Footer and submit page. Used em and rem throughout the css page. Used a media query for the nav page that will change the background color if the page is smaller than 400px in width. Created a contact page with that is linked to a submit page. Must submit name, email and number to go to the submit page. Background img on the submit back.
